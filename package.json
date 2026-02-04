@@ -6,22 +6,34 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "extract": "lingui extract",
+    "compile": "lingui compile"
   },
   "dependencies": {
-    "antd": "^6.2.2",
+    "@lingui/core": "^5.9.0",
+    "antd": "^6.2.3",
+    "dayjs": "^1.11.19",
+    "i18next": "^25.8.1",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-i18next": "^16.5.4"
   },
   "devDependencies": {
+    "@lingui/cli": "^5.9.0",
+    "@lingui/loader": "^5.9.0",
+    "@lingui/macro": "^5.9.0",
+    "@lingui/react": "^5.9.0",
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
+    "@types/node": "^20.19.30",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "babel-plugin-macros": "^3.1.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5.9.3",
+    "i18next-parser": "^9.3.0"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "locales": ["ru", "uz"],
+  "sourceLocale": "uz",
+  "catalogs": [{
+    "path": "messages/{locale}",
+    "include": ["app", "components"],
+    "exclude": ["**/node_modules/**"]
+  }],
+  "format": "po"
+}
